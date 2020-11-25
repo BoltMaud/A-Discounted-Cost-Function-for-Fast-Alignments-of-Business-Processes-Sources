@@ -1,0 +1,1953 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7">
+	<string key="concept:name" value="Super Instances"/>
+	<trace>
+		<boolean key="young farmer" value="true"/>
+		<boolean key="selected_random" value="false"/>
+		<boolean key="penalty_AJLP" value="false"/>
+		<string key="application" value="adcbf6cccf7e6c89"/>
+		<float key="penalty_amount0" value="0.0"/>
+		<string key="program-id" value="215"/>
+		<boolean key="penalty_BGKV" value="false"/>
+		<boolean key="penalty_AUVP" value="false"/>
+		<string key="applicant" value="7560b98d24325b3b"/>
+		<float key="risk_factor" value="1.0"/>
+		<boolean key="small farmer" value="false"/>
+		<boolean key="penalty_BGP" value="false"/>
+		<string key="department" value="6b"/>
+		<boolean key="penalty_C16" value="false"/>
+		<boolean key="penalty_BGK" value="false"/>
+		<boolean key="penalty_AVUVP" value="false"/>
+		<boolean key="penalty_CC" value="false"/>
+		<boolean key="penalty_AVJLP" value="false"/>
+		<boolean key="penalty_C9" value="false"/>
+		<float key="cross_compliance" value="0.0"/>
+		<boolean key="rejected" value="false"/>
+		<boolean key="greening" value="true"/>
+		<boolean key="penalty_C4" value="false"/>
+		<boolean key="penalty_AVGP" value="false"/>
+		<boolean key="penalty_ABP" value="false"/>
+		<boolean key="penalty_B6" value="false"/>
+		<boolean key="penalty_B4" value="false"/>
+		<boolean key="penalty_B5" value="false"/>
+		<boolean key="penalty_AVBP" value="false"/>
+		<boolean key="penalty_B2" value="false"/>
+		<boolean key="selected_risk" value="false"/>
+		<boolean key="penalty_B3" value="false"/>
+		<float key="area" value="16.7491"/>
+		<boolean key="selected_manually" value="false"/>
+		<boolean key="penalty_AGP" value="false"/>
+		<boolean key="penalty_B16" value="false"/>
+		<boolean key="penalty_GP1" value="false"/>
+		<boolean key="basic payment" value="true"/>
+		<boolean key="penalty_B5F" value="false"/>
+		<boolean key="penalty_V5" value="false"/>
+		<float key="payment_actual0" value="6510.65"/>
+		<id key="identity:id" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+		<float key="amount_applied0" value="6512.07"/>
+		<boolean key="redistribution" value="true"/>
+		<boolean key="penalty_JLP6" value="false"/>
+		<boolean key="penalty_JLP7" value="false"/>
+		<string key="year" value="2017"/>
+		<boolean key="penalty_JLP5" value="false"/>
+		<boolean key="penalty_JLP2" value="false"/>
+		<boolean key="penalty_JLP3" value="false"/>
+		<int key="number_parcels" value="36"/>
+		<boolean key="penalty_JLP1" value="false"/>
+		<string key="concept:name" value="-54037160734315318"/>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="0;n/a"/>
+			<id key="docid_uuid" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160734315318"/>
+			<string key="activity" value="mail income"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="null"/>
+			<id key="identity:id" value="AC63C080-C312-4987-93BE-035B845BDDBD"/>
+			<date key="time:timestamp" value="2017-04-07T00:00:00.000+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="mail income"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="0;n/a"/>
+			<id key="docid_uuid" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160734315318"/>
+			<string key="activity" value="mail valid"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="null"/>
+			<id key="identity:id" value="66C6670C-DA26-4B2B-91DA-359E6AAA8A48"/>
+			<date key="time:timestamp" value="2017-04-25T00:00:00.000+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="mail valid"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="Document processing automaton"/>
+			<id key="docid_uuid" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160734315318"/>
+			<string key="activity" value="initialize"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="-54037160734315319"/>
+			<id key="identity:id" value="B751ACA5-2C51-4F71-9F61-CAD66501C075"/>
+			<date key="time:timestamp" value="2017-10-23T07:37:43.891+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="initialize"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160734315318"/>
+			<string key="activity" value="begin editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-18008355053454054"/>
+			<id key="identity:id" value="817B11B2-37B6-40B1-95F0-41B2854DE213"/>
+			<date key="time:timestamp" value="2017-11-17T07:20:08.693+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160734315318"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-18008355053437578"/>
+			<id key="identity:id" value="7846D05A-06E7-4923-A6CA-199AD6B70109"/>
+			<date key="time:timestamp" value="2017-11-17T07:20:22.002+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160734315318"/>
+			<string key="activity" value="finish editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-18008355053433962"/>
+			<id key="identity:id" value="0E382D9C-6B9C-49CE-96AD-C9A2229493A9"/>
+			<date key="time:timestamp" value="2017-11-17T07:20:23.830+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160734315318"/>
+			<string key="activity" value="begin editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-18008350210674561"/>
+			<id key="identity:id" value="3C214B51-450E-4AE5-8321-DBD4FA748798"/>
+			<date key="time:timestamp" value="2017-12-05T00:30:52.899+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160734315318"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-18008350210670678"/>
+			<id key="identity:id" value="5E547084-4273-43D8-9DB6-1244A880DF31"/>
+			<date key="time:timestamp" value="2017-12-05T00:30:59.546+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160734315318"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-18008348368634588"/>
+			<id key="identity:id" value="32F32EEE-6F7B-42FB-B371-855D3FB3D06D"/>
+			<date key="time:timestamp" value="2017-12-06T17:11:54.212+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160734315318"/>
+			<string key="activity" value="finish editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-18008348368633637"/>
+			<id key="identity:id" value="D3AD63F4-87B1-40C4-A537-9BD81B9582E7"/>
+			<date key="time:timestamp" value="2017-12-06T17:11:55.110+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160734315318"/>
+			<string key="activity" value="begin editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-18008347459917012"/>
+			<id key="identity:id" value="EC2989F4-ED1F-4AA4-8402-7141199C6E9C"/>
+			<date key="time:timestamp" value="2017-12-08T23:31:26.261+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160734315318"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-18008347459900486"/>
+			<id key="identity:id" value="A6283B35-A744-4AC8-AE0C-68CD17EF2ABF"/>
+			<date key="time:timestamp" value="2017-12-08T23:31:40.421+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160734315318"/>
+			<string key="activity" value="finish editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-18008347459898429"/>
+			<id key="identity:id" value="5B57478C-CDA9-421C-A572-B0285A7896EE"/>
+			<date key="time:timestamp" value="2017-12-08T23:31:42.955+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="155add"/>
+			<id key="docid_uuid" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160734315318"/>
+			<string key="activity" value="decide"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-90065940806009762"/>
+			<id key="identity:id" value="49743EA1-CB24-4036-A953-F4FBE27E7C4B"/>
+			<date key="time:timestamp" value="2017-12-11T10:22:02.006+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="decide"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-Z"/>
+			<id key="docid_uuid" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160734315318"/>
+			<string key="activity" value="begin payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-90065939195486178"/>
+			<id key="identity:id" value="9279A361-CF2E-4D9A-8902-0D7CAB2A2A2C"/>
+			<date key="time:timestamp" value="2017-12-15T15:58:59.628+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin payment"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="Notification automaton"/>
+			<id key="docid_uuid" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160734315318"/>
+			<string key="activity" value="insert document"/>
+			<string key="note" value="notification for applicant"/>
+			<string key="eventid" value="-90065939195032428"/>
+			<id key="identity:id" value="FB109840-3D28-429B-AA3D-F7EFE0AF6F9B"/>
+			<date key="time:timestamp" value="2017-12-15T19:24:36.444+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="insert document"/>
+		</event>
+		<event>
+			<boolean key="success" value="false"/>
+			<string key="org:resource" value="Notification automaton"/>
+			<id key="docid_uuid" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160734315318"/>
+			<string key="activity" value="insert document"/>
+			<string key="note" value="notification for applicant"/>
+			<string key="eventid" value="-126094734587029151"/>
+			<id key="identity:id" value="F0459B5E-2A51-47AC-86CD-19D80A48373A"/>
+			<date key="time:timestamp" value="2017-12-20T09:02:37.544+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="insert document"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-Z"/>
+			<id key="docid_uuid" value="F6BAE319-09AB-4C7D-9098-BCDF71C14DA7"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160734315318"/>
+			<string key="activity" value="finish payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-18008338125580622"/>
+			<id key="identity:id" value="DC08BB5F-AC94-470F-B1F3-68CE7898CC81"/>
+			<date key="time:timestamp" value="2018-01-05T14:54:55.095+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish payment"/>
+		</event>
+	</trace>
+	<trace>
+		<boolean key="young farmer" value="false"/>
+		<boolean key="selected_random" value="false"/>
+		<boolean key="penalty_AJLP" value="false"/>
+		<string key="application" value="dc8462aad587ab02"/>
+		<float key="penalty_amount0" value="0.0"/>
+		<string key="program-id" value="215"/>
+		<boolean key="penalty_BGKV" value="false"/>
+		<boolean key="penalty_AUVP" value="false"/>
+		<string key="applicant" value="c821f52647048f02"/>
+		<float key="risk_factor" value="1.0"/>
+		<boolean key="small farmer" value="false"/>
+		<boolean key="penalty_BGP" value="false"/>
+		<string key="department" value="4e"/>
+		<boolean key="penalty_C16" value="false"/>
+		<boolean key="penalty_BGK" value="false"/>
+		<boolean key="penalty_AVUVP" value="false"/>
+		<boolean key="penalty_CC" value="false"/>
+		<boolean key="penalty_AVJLP" value="false"/>
+		<boolean key="penalty_C9" value="false"/>
+		<float key="cross_compliance" value="0.0"/>
+		<boolean key="rejected" value="false"/>
+		<boolean key="greening" value="true"/>
+		<boolean key="penalty_C4" value="false"/>
+		<boolean key="penalty_AVGP" value="false"/>
+		<boolean key="penalty_ABP" value="false"/>
+		<boolean key="penalty_B6" value="false"/>
+		<boolean key="penalty_B4" value="false"/>
+		<boolean key="penalty_B5" value="false"/>
+		<boolean key="penalty_AVBP" value="false"/>
+		<boolean key="penalty_B2" value="false"/>
+		<boolean key="selected_risk" value="false"/>
+		<boolean key="penalty_B3" value="false"/>
+		<float key="area" value="4.1348"/>
+		<boolean key="selected_manually" value="false"/>
+		<boolean key="penalty_AGP" value="false"/>
+		<boolean key="penalty_B16" value="false"/>
+		<boolean key="penalty_GP1" value="false"/>
+		<boolean key="basic payment" value="true"/>
+		<boolean key="penalty_B5F" value="false"/>
+		<boolean key="penalty_V5" value="false"/>
+		<float key="payment_actual0" value="1369.38"/>
+		<id key="identity:id" value="D7DC0572-8542-440F-B1A7-A2E5CDC22F9F"/>
+		<float key="amount_applied0" value="1369.38"/>
+		<boolean key="redistribution" value="true"/>
+		<boolean key="penalty_JLP6" value="false"/>
+		<boolean key="penalty_JLP7" value="false"/>
+		<string key="year" value="2015"/>
+		<boolean key="penalty_JLP5" value="false"/>
+		<boolean key="penalty_JLP2" value="false"/>
+		<boolean key="penalty_JLP3" value="false"/>
+		<int key="number_parcels" value="3"/>
+		<boolean key="penalty_JLP1" value="false"/>
+		<string key="concept:name" value="-18008611495895489"/>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="0;n/a"/>
+			<id key="docid_uuid" value="D7DC0572-8542-440F-B1A7-A2E5CDC22F9F"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495895489"/>
+			<string key="activity" value="mail income"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="null"/>
+			<id key="identity:id" value="F1EDE0B5-419F-4B13-B2F9-694F80D74210"/>
+			<date key="time:timestamp" value="2015-05-06T00:00:00.000+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="mail income"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="0;n/a"/>
+			<id key="docid_uuid" value="D7DC0572-8542-440F-B1A7-A2E5CDC22F9F"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495895489"/>
+			<string key="activity" value="mail valid"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="null"/>
+			<id key="identity:id" value="6C5DB996-F13D-4871-B6BC-DF0C2308E17C"/>
+			<date key="time:timestamp" value="2015-05-11T00:00:00.000+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="mail valid"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="Document processing automaton"/>
+			<id key="docid_uuid" value="D7DC0572-8542-440F-B1A7-A2E5CDC22F9F"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495895489"/>
+			<string key="activity" value="initialize"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="-18008611495895490"/>
+			<id key="identity:id" value="9CFD58A3-C98E-4B46-A27E-67AD0BB1EE81"/>
+			<date key="time:timestamp" value="2015-11-06T10:00:20.435+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="initialize"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="D7DC0572-8542-440F-B1A7-A2E5CDC22F9F"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495895489"/>
+			<string key="activity" value="begin editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-108080602656192168"/>
+			<id key="identity:id" value="F9C7C7D3-552D-480A-9E94-D6045C21914D"/>
+			<date key="time:timestamp" value="2015-11-10T13:18:21.785+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="D7DC0572-8542-440F-B1A7-A2E5CDC22F9F"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495895489"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-108080602656190975"/>
+			<id key="identity:id" value="52846F1C-4552-45AE-9F40-8941A0E07257"/>
+			<date key="time:timestamp" value="2015-11-10T13:18:29.929+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="D7DC0572-8542-440F-B1A7-A2E5CDC22F9F"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495895489"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-108080598167969385"/>
+			<id key="identity:id" value="00EC71D1-6B0C-47F1-8FE2-7BA3A181C494"/>
+			<date key="time:timestamp" value="2015-11-23T19:20:25.715+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="D7DC0572-8542-440F-B1A7-A2E5CDC22F9F"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495895489"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-126094996152555052"/>
+			<id key="identity:id" value="8E053CF1-679D-4D83-A396-C370B47012C4"/>
+			<date key="time:timestamp" value="2015-11-24T18:00:17.040+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="D7DC0572-8542-440F-B1A7-A2E5CDC22F9F"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495895489"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-90066195584239694"/>
+			<id key="identity:id" value="F2264E55-51EE-468B-B9B8-E1BB72C0E808"/>
+			<date key="time:timestamp" value="2015-12-05T01:14:23.806+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="D7DC0572-8542-440F-B1A7-A2E5CDC22F9F"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495895489"/>
+			<string key="activity" value="finish editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-90066195584239496"/>
+			<id key="identity:id" value="FA5A7D90-08BD-4AF9-89CE-05F9B8BD9492"/>
+			<date key="time:timestamp" value="2015-12-05T01:14:25.031+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="8beb64"/>
+			<id key="docid_uuid" value="D7DC0572-8542-440F-B1A7-A2E5CDC22F9F"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495895489"/>
+			<string key="activity" value="decide"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-108080594101132681"/>
+			<id key="identity:id" value="02CDD9A8-3D8B-412F-9779-7018E26C6A46"/>
+			<date key="time:timestamp" value="2015-12-05T11:17:58.136+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="decide"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-Z"/>
+			<id key="docid_uuid" value="D7DC0572-8542-440F-B1A7-A2E5CDC22F9F"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495895489"/>
+			<string key="activity" value="begin payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-18008597326800452"/>
+			<id key="identity:id" value="330A09D3-7372-4FCD-9732-09920D93D352"/>
+			<date key="time:timestamp" value="2015-12-17T08:43:08.633+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin payment"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-Z"/>
+			<id key="docid_uuid" value="D7DC0572-8542-440F-B1A7-A2E5CDC22F9F"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495895489"/>
+			<string key="activity" value="abort payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-18008596977165343"/>
+			<id key="identity:id" value="39EE1AC4-46B1-4C77-9F59-D6B659B08FC9"/>
+			<date key="time:timestamp" value="2015-12-18T12:40:52.103+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="abort payment"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-Z"/>
+			<id key="docid_uuid" value="D7DC0572-8542-440F-B1A7-A2E5CDC22F9F"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495895489"/>
+			<string key="activity" value="begin payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-18008596507549612"/>
+			<id key="identity:id" value="EC89E68F-EDA8-4609-B047-1111A96297E5"/>
+			<date key="time:timestamp" value="2015-12-19T05:58:30.697+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin payment"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-Z"/>
+			<id key="docid_uuid" value="D7DC0572-8542-440F-B1A7-A2E5CDC22F9F"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495895489"/>
+			<string key="activity" value="finish payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-18008575555807390"/>
+			<id key="identity:id" value="7EF196A2-1285-4065-913E-6E8A19A000E6"/>
+			<date key="time:timestamp" value="2016-02-18T07:32:27.948+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish payment"/>
+		</event>
+	</trace>
+	<trace>
+		<boolean key="young farmer" value="false"/>
+		<boolean key="selected_random" value="false"/>
+		<boolean key="penalty_AJLP" value="false"/>
+		<string key="application" value="ea430e47a43639d7"/>
+		<float key="penalty_amount0" value="0.0"/>
+		<string key="program-id" value="215"/>
+		<boolean key="penalty_BGKV" value="false"/>
+		<boolean key="penalty_AUVP" value="false"/>
+		<string key="applicant" value="cce4713c1365a542"/>
+		<float key="risk_factor" value="1.0"/>
+		<boolean key="small farmer" value="false"/>
+		<boolean key="penalty_BGP" value="false"/>
+		<string key="department" value="e7"/>
+		<boolean key="penalty_C16" value="false"/>
+		<boolean key="penalty_BGK" value="false"/>
+		<boolean key="penalty_AVUVP" value="false"/>
+		<boolean key="penalty_CC" value="false"/>
+		<boolean key="penalty_AVJLP" value="false"/>
+		<boolean key="penalty_C9" value="false"/>
+		<float key="cross_compliance" value="0.0"/>
+		<boolean key="rejected" value="false"/>
+		<boolean key="greening" value="true"/>
+		<boolean key="penalty_C4" value="false"/>
+		<boolean key="penalty_AVGP" value="false"/>
+		<boolean key="penalty_ABP" value="false"/>
+		<boolean key="penalty_B6" value="false"/>
+		<boolean key="penalty_B4" value="false"/>
+		<boolean key="penalty_B5" value="false"/>
+		<boolean key="penalty_AVBP" value="false"/>
+		<boolean key="penalty_B2" value="false"/>
+		<boolean key="selected_risk" value="false"/>
+		<boolean key="penalty_B3" value="false"/>
+		<float key="area" value="13.3202"/>
+		<boolean key="selected_manually" value="false"/>
+		<boolean key="penalty_AGP" value="false"/>
+		<boolean key="penalty_B16" value="false"/>
+		<boolean key="penalty_GP1" value="false"/>
+		<boolean key="basic payment" value="true"/>
+		<boolean key="penalty_B5F" value="false"/>
+		<boolean key="penalty_V5" value="false"/>
+		<float key="payment_actual0" value="4476.05"/>
+		<id key="identity:id" value="5E916359-29D2-4C65-B888-59185CFAD0D9"/>
+		<float key="amount_applied0" value="4476.84"/>
+		<boolean key="redistribution" value="true"/>
+		<boolean key="penalty_JLP6" value="false"/>
+		<boolean key="penalty_JLP7" value="false"/>
+		<string key="year" value="2017"/>
+		<boolean key="penalty_JLP5" value="false"/>
+		<boolean key="penalty_JLP2" value="false"/>
+		<boolean key="penalty_JLP3" value="false"/>
+		<int key="number_parcels" value="5"/>
+		<boolean key="penalty_JLP1" value="false"/>
+		<string key="concept:name" value="-54037160735578653"/>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="0;n/a"/>
+			<id key="docid_uuid" value="5E916359-29D2-4C65-B888-59185CFAD0D9"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160735578653"/>
+			<string key="activity" value="mail income"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="null"/>
+			<id key="identity:id" value="396C3542-AF34-4C0F-8666-95A2B2C13D15"/>
+			<date key="time:timestamp" value="2017-05-05T00:00:00.000+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="mail income"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="0;n/a"/>
+			<id key="docid_uuid" value="5E916359-29D2-4C65-B888-59185CFAD0D9"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160735578653"/>
+			<string key="activity" value="mail valid"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="null"/>
+			<id key="identity:id" value="C3620563-1535-4BE4-A11C-4CA9D233F01C"/>
+			<date key="time:timestamp" value="2017-05-08T00:00:00.000+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="mail valid"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="Document processing automaton"/>
+			<id key="docid_uuid" value="5E916359-29D2-4C65-B888-59185CFAD0D9"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160735578653"/>
+			<string key="activity" value="initialize"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="-54037160735578654"/>
+			<id key="identity:id" value="F9EA720B-6D2C-4954-B0AB-7DC3D5F50511"/>
+			<date key="time:timestamp" value="2017-10-23T07:26:49.481+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="initialize"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="5E916359-29D2-4C65-B888-59185CFAD0D9"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160735578653"/>
+			<string key="activity" value="begin editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-18008355038147932"/>
+			<id key="identity:id" value="1B16CDC0-BCE2-4FB8-B8B5-0F6270D2B828"/>
+			<date key="time:timestamp" value="2017-11-17T10:39:12.338+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="5E916359-29D2-4C65-B888-59185CFAD0D9"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160735578653"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-18008355038136869"/>
+			<id key="identity:id" value="8AB7DA57-7203-4E20-BD53-E74EB2BD2E6A"/>
+			<date key="time:timestamp" value="2017-11-17T10:39:19.678+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="5E916359-29D2-4C65-B888-59185CFAD0D9"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160735578653"/>
+			<string key="activity" value="finish editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-18008355038134295"/>
+			<id key="identity:id" value="659BD74F-A09A-47CD-AB74-D4E08476910E"/>
+			<date key="time:timestamp" value="2017-11-17T10:39:21.337+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="5E916359-29D2-4C65-B888-59185CFAD0D9"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160735578653"/>
+			<string key="activity" value="begin editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-36022746657208827"/>
+			<id key="identity:id" value="C0DA5205-5169-4042-8DF3-C48E5708C1AC"/>
+			<date key="time:timestamp" value="2017-12-07T16:21:46.055+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="5E916359-29D2-4C65-B888-59185CFAD0D9"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160735578653"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-36022746657203681"/>
+			<id key="identity:id" value="B1BEB15E-1588-43A5-9495-ADA60EA17439"/>
+			<date key="time:timestamp" value="2017-12-07T16:21:51.988+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="5E916359-29D2-4C65-B888-59185CFAD0D9"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160735578653"/>
+			<string key="activity" value="finish editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-36022746657201912"/>
+			<id key="identity:id" value="67870899-3FCA-490D-A348-DA9C4036424D"/>
+			<date key="time:timestamp" value="2017-12-07T16:21:53.511+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="5E916359-29D2-4C65-B888-59185CFAD0D9"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160735578653"/>
+			<string key="activity" value="begin editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-18008347447886023"/>
+			<id key="identity:id" value="249804C2-4D31-40DF-8788-8F16DB2A5321"/>
+			<date key="time:timestamp" value="2017-12-09T02:32:59.675+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="5E916359-29D2-4C65-B888-59185CFAD0D9"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160735578653"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-18008347447874803"/>
+			<id key="identity:id" value="AD03627E-865C-4A50-AE44-4D5FEF484891"/>
+			<date key="time:timestamp" value="2017-12-09T02:33:08.059+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="5E916359-29D2-4C65-B888-59185CFAD0D9"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160735578653"/>
+			<string key="activity" value="finish editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-18008347447873639"/>
+			<id key="identity:id" value="8B1F7EC0-94EC-4A4F-A283-E6ADCD153A53"/>
+			<date key="time:timestamp" value="2017-12-09T02:33:09.780+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="7078c7"/>
+			<id key="docid_uuid" value="5E916359-29D2-4C65-B888-59185CFAD0D9"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160735578653"/>
+			<string key="activity" value="decide"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-144109136333785262"/>
+			<id key="identity:id" value="2C4FAAFF-0D37-4FE9-B1BC-F8DAEC175D8A"/>
+			<date key="time:timestamp" value="2017-12-11T12:35:25.358+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="decide"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-Z"/>
+			<id key="docid_uuid" value="5E916359-29D2-4C65-B888-59185CFAD0D9"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160735578653"/>
+			<string key="activity" value="begin payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-90065939195795517"/>
+			<id key="identity:id" value="1F253D02-D400-4088-92AF-69CB5F09B15E"/>
+			<date key="time:timestamp" value="2017-12-15T14:24:32.028+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin payment"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="Notification automaton"/>
+			<id key="docid_uuid" value="5E916359-29D2-4C65-B888-59185CFAD0D9"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160735578653"/>
+			<string key="activity" value="insert document"/>
+			<string key="note" value="notification for applicant"/>
+			<string key="eventid" value="-90065939195245886"/>
+			<id key="identity:id" value="3B63EB68-BFDB-4D12-BA6C-B0D3F16AAD7F"/>
+			<date key="time:timestamp" value="2017-12-15T17:52:31.346+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="insert document"/>
+		</event>
+		<event>
+			<boolean key="success" value="false"/>
+			<string key="org:resource" value="Notification automaton"/>
+			<id key="docid_uuid" value="5E916359-29D2-4C65-B888-59185CFAD0D9"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160735578653"/>
+			<string key="activity" value="insert document"/>
+			<string key="note" value="notification for applicant"/>
+			<string key="eventid" value="-126094734587066969"/>
+			<id key="identity:id" value="C38D8750-DE36-45F4-AF38-C57ACFDF78F9"/>
+			<date key="time:timestamp" value="2017-12-20T08:56:53.657+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="insert document"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-Z"/>
+			<id key="docid_uuid" value="5E916359-29D2-4C65-B888-59185CFAD0D9"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-54037160735578653"/>
+			<string key="activity" value="finish payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-18008338125315266"/>
+			<id key="identity:id" value="1AC8ACE6-5A14-4628-B699-196C8466675D"/>
+			<date key="time:timestamp" value="2018-01-05T16:26:16.108+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish payment"/>
+		</event>
+	</trace>
+	<trace>
+		<boolean key="young farmer" value="false"/>
+		<boolean key="selected_random" value="false"/>
+		<boolean key="penalty_AJLP" value="false"/>
+		<string key="application" value="bec3f3f6ee2ad09c"/>
+		<float key="penalty_amount0" value="0.0"/>
+		<string key="program-id" value="215"/>
+		<boolean key="penalty_BGKV" value="false"/>
+		<boolean key="penalty_AUVP" value="false"/>
+		<string key="applicant" value="89636d3b79b48a73"/>
+		<float key="risk_factor" value="1.0"/>
+		<boolean key="small farmer" value="false"/>
+		<boolean key="penalty_BGP" value="false"/>
+		<string key="department" value="4e"/>
+		<boolean key="penalty_C16" value="false"/>
+		<boolean key="penalty_BGK" value="false"/>
+		<boolean key="penalty_AVUVP" value="false"/>
+		<boolean key="penalty_CC" value="false"/>
+		<boolean key="penalty_AVJLP" value="false"/>
+		<boolean key="penalty_C9" value="false"/>
+		<float key="cross_compliance" value="0.0"/>
+		<boolean key="rejected" value="false"/>
+		<boolean key="greening" value="true"/>
+		<boolean key="penalty_C4" value="false"/>
+		<boolean key="penalty_AVGP" value="false"/>
+		<boolean key="penalty_ABP" value="false"/>
+		<boolean key="penalty_B6" value="false"/>
+		<boolean key="penalty_B4" value="false"/>
+		<boolean key="penalty_B5" value="false"/>
+		<boolean key="penalty_AVBP" value="false"/>
+		<boolean key="penalty_B2" value="false"/>
+		<boolean key="selected_risk" value="false"/>
+		<boolean key="penalty_B3" value="false"/>
+		<float key="area" value="65.4242"/>
+		<boolean key="selected_manually" value="false"/>
+		<boolean key="penalty_AGP" value="false"/>
+		<boolean key="penalty_B16" value="false"/>
+		<boolean key="penalty_GP1" value="false"/>
+		<boolean key="basic payment" value="true"/>
+		<boolean key="penalty_B5F" value="false"/>
+		<boolean key="penalty_V5" value="false"/>
+		<float key="payment_actual0" value="20660.53"/>
+		<id key="identity:id" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+		<float key="amount_applied0" value="20652.65"/>
+		<boolean key="redistribution" value="true"/>
+		<boolean key="penalty_JLP6" value="false"/>
+		<boolean key="penalty_JLP7" value="false"/>
+		<string key="year" value="2016"/>
+		<boolean key="penalty_JLP5" value="false"/>
+		<boolean key="penalty_JLP2" value="false"/>
+		<boolean key="penalty_JLP3" value="false"/>
+		<int key="number_parcels" value="14"/>
+		<boolean key="penalty_JLP1" value="false"/>
+		<string key="concept:name" value="-72051689171080761"/>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="0;n/a"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="mail income"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="null"/>
+			<id key="identity:id" value="96460E4B-6019-4929-A4AB-7B750FA3DDAC"/>
+			<date key="time:timestamp" value="2016-04-20T00:00:00.000+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="mail income"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="0;n/a"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="mail valid"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="null"/>
+			<id key="identity:id" value="C8D0CA33-4718-41C7-8B40-1063875B0D9F"/>
+			<date key="time:timestamp" value="2016-04-29T00:00:00.000+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="mail valid"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="Document processing automaton"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="initialize"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="-72051689171080763"/>
+			<id key="identity:id" value="9F6DE85B-87A5-47BF-8150-D875357D134D"/>
+			<date key="time:timestamp" value="2016-10-12T16:46:08.553+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="initialize"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="begin editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-90066087324151915"/>
+			<id key="identity:id" value="1A6EC59E-F079-426C-8EE6-BBB9BA514B8C"/>
+			<date key="time:timestamp" value="2016-10-13T15:47:40.019+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-90066087324149076"/>
+			<id key="identity:id" value="C20FFFC0-063A-4A48-ACAA-FF3AC06DA8DB"/>
+			<date key="time:timestamp" value="2016-10-13T15:47:46.176+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-36022887297250661"/>
+			<id key="identity:id" value="786EFCAE-3531-4F3F-BE6E-09C53FC99954"/>
+			<date key="time:timestamp" value="2016-10-26T15:46:17.744+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-90066077629335608"/>
+			<id key="identity:id" value="D81981EE-CCB3-486A-BDAA-E613E388F87E"/>
+			<date key="time:timestamp" value="2016-11-10T10:43:44.557+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-90066076249719841"/>
+			<id key="identity:id" value="F2EB7E0C-F8A4-424C-9200-0BF76CB65188"/>
+			<date key="time:timestamp" value="2016-11-14T11:33:39.968+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="finish editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-90066076249718589"/>
+			<id key="identity:id" value="E9A47084-F893-4876-8F34-7265F9615CF1"/>
+			<date key="time:timestamp" value="2016-11-14T11:33:41.617+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="begin editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-36022879686243385"/>
+			<id key="identity:id" value="68006D04-BD9F-48BB-9EB4-264843715B7D"/>
+			<date key="time:timestamp" value="2016-11-17T10:48:32.642+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-36022879686237218"/>
+			<id key="identity:id" value="E614814C-C9C8-4F60-879C-BE2BC14A9A7A"/>
+			<date key="time:timestamp" value="2016-11-17T10:48:40.810+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="finish editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-36022879686236418"/>
+			<id key="identity:id" value="56385083-53AB-42EC-8F22-FF49C59A778C"/>
+			<date key="time:timestamp" value="2016-11-17T10:48:42.182+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="begin editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-72051674274264488"/>
+			<id key="identity:id" value="C797EA5D-D353-4A67-B487-37D1375B16EE"/>
+			<date key="time:timestamp" value="2016-11-28T15:00:44.324+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-72051674274258337"/>
+			<id key="identity:id" value="1FD8A6F6-CCB3-4FAC-9A5A-CFFFAE51A192"/>
+			<date key="time:timestamp" value="2016-11-28T15:00:54.992+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="finish editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-72051674274257289"/>
+			<id key="identity:id" value="3225F0DC-0A87-4434-ACDC-9E9F21C57AB0"/>
+			<date key="time:timestamp" value="2016-11-28T15:00:56.695+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="begin editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-54037273073594285"/>
+			<id key="identity:id" value="56988E6F-D2BC-4FD3-A6A3-4705593DFAD0"/>
+			<date key="time:timestamp" value="2016-12-02T12:02:16.333+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-54037273073585532"/>
+			<id key="identity:id" value="2AA3DC68-BD65-42DE-8EE3-B55AD5540676"/>
+			<date key="time:timestamp" value="2016-12-02T12:02:27.367+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="finish editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-54037273073583021"/>
+			<id key="identity:id" value="0126003E-9010-4676-A4E4-161A6C6B61BB"/>
+			<date key="time:timestamp" value="2016-12-02T12:02:29.478+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="begin editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-90066067935840610"/>
+			<id key="identity:id" value="D095F558-F3DC-4E79-BD0A-F2AA82C595D2"/>
+			<date key="time:timestamp" value="2016-12-09T17:51:28.985+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-90066067935832343"/>
+			<id key="identity:id" value="1959C12C-EBA8-4FFF-8CCB-902384C9AF08"/>
+			<date key="time:timestamp" value="2016-12-09T17:51:38.727+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="finish editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-90066067935830019"/>
+			<id key="identity:id" value="6300FC83-63E7-4E8E-9FFD-23BB6038903D"/>
+			<date key="time:timestamp" value="2016-12-09T17:51:40.791+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="b90293"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="decide"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-108080465656350500"/>
+			<id key="identity:id" value="90A5F462-A5B2-4921-A8DB-CCA6EDC76AF8"/>
+			<date key="time:timestamp" value="2016-12-10T10:31:51.964+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="decide"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="fcb55b"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="revoke decision"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="-108080465654753833"/>
+			<id key="identity:id" value="ACFC8FAE-83E0-4185-84D3-EB34DEAF7AFE"/>
+			<date key="time:timestamp" value="2016-12-14T10:38:50.370+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="revoke decision"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-54037268659298273"/>
+			<id key="identity:id" value="26269277-3003-4602-B0C1-8D0B45E1F09A"/>
+			<date key="time:timestamp" value="2016-12-15T12:05:33.507+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="finish editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-54037268659296603"/>
+			<id key="identity:id" value="6A7B082C-1F66-4A5C-ABA0-8B21C0C5FCD5"/>
+			<date key="time:timestamp" value="2016-12-15T12:05:35.430+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="b90293"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="decide"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-108080463688851366"/>
+			<id key="identity:id" value="27800087-0E33-4482-AE24-CE77233ADD7D"/>
+			<date key="time:timestamp" value="2016-12-16T10:54:39.988+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="decide"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-Z"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="begin payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-18008470797159876"/>
+			<id key="identity:id" value="05096EF4-21D4-474D-97F6-A5F5E4D0E155"/>
+			<date key="time:timestamp" value="2016-12-17T09:18:04.102+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin payment"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-Z"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="abort payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-72051665397620299"/>
+			<id key="identity:id" value="E0EA46F4-E548-461E-BA37-C151DACD7879"/>
+			<date key="time:timestamp" value="2016-12-20T07:52:56.405+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="abort payment"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-Z"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="begin payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-72051665397275708"/>
+			<id key="identity:id" value="0DB7146F-2B98-4A63-90E5-453B84204FD6"/>
+			<date key="time:timestamp" value="2016-12-20T11:47:03.732+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin payment"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="Notification automaton"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="insert document"/>
+			<string key="note" value="notification for applicant"/>
+			<string key="eventid" value="-36022867781566101"/>
+			<id key="identity:id" value="FA2689B1-0594-47C2-9168-FAC20D0556E6"/>
+			<date key="time:timestamp" value="2016-12-21T14:51:18.159+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="insert document"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-Z"/>
+			<id key="docid_uuid" value="BEB95B86-DBCC-4349-90E6-6DFFF61EE3E6"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-72051689171080761"/>
+			<string key="activity" value="finish payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-18008463892200839"/>
+			<id key="identity:id" value="D6E7CA1A-CA19-41F3-9111-EA1900726FFC"/>
+			<date key="time:timestamp" value="2017-01-06T13:13:09.655+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish payment"/>
+		</event>
+	</trace>
+	<trace>
+		<float key="penalty_amount1" value="6202.94"/>
+		<float key="payment_actual1" value="-513.41"/>
+		<float key="amount_applied1" value="47410.77"/>
+		<boolean key="young farmer" value="false"/>
+		<boolean key="selected_random" value="false"/>
+		<boolean key="penalty_AJLP" value="false"/>
+		<string key="application" value="74bc83b5aa287fc1"/>
+		<float key="penalty_amount0" value="5728.17"/>
+		<string key="program-id" value="215"/>
+		<boolean key="penalty_BGKV" value="false"/>
+		<boolean key="penalty_AUVP" value="false"/>
+		<string key="applicant" value="a58ae282255be9db"/>
+		<float key="risk_factor" value="1.0"/>
+		<boolean key="small farmer" value="false"/>
+		<boolean key="penalty_BGP" value="false"/>
+		<string key="department" value="e7"/>
+		<boolean key="penalty_C16" value="false"/>
+		<boolean key="penalty_BGK" value="false"/>
+		<boolean key="penalty_AVUVP" value="false"/>
+		<boolean key="penalty_CC" value="true"/>
+		<boolean key="penalty_AVJLP" value="false"/>
+		<boolean key="penalty_C9" value="false"/>
+		<float key="cross_compliance" value="13.0"/>
+		<boolean key="rejected" value="false"/>
+		<boolean key="greening" value="true"/>
+		<boolean key="penalty_C4" value="false"/>
+		<boolean key="penalty_AVGP" value="false"/>
+		<boolean key="penalty_ABP" value="false"/>
+		<boolean key="penalty_B6" value="false"/>
+		<boolean key="penalty_B4" value="false"/>
+		<boolean key="penalty_B5" value="false"/>
+		<boolean key="penalty_AVBP" value="false"/>
+		<boolean key="penalty_B2" value="true"/>
+		<boolean key="selected_risk" value="false"/>
+		<boolean key="penalty_B3" value="false"/>
+		<float key="area" value="157.215"/>
+		<boolean key="selected_manually" value="false"/>
+		<boolean key="penalty_AGP" value="false"/>
+		<boolean key="penalty_B16" value="false"/>
+		<boolean key="penalty_GP1" value="false"/>
+		<boolean key="basic payment" value="true"/>
+		<boolean key="penalty_B5F" value="false"/>
+		<boolean key="penalty_V5" value="false"/>
+		<float key="payment_actual0" value="41705.16"/>
+		<id key="identity:id" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+		<float key="amount_applied0" value="47449.43"/>
+		<boolean key="redistribution" value="true"/>
+		<boolean key="penalty_JLP6" value="false"/>
+		<boolean key="penalty_JLP7" value="false"/>
+		<string key="year" value="2015"/>
+		<boolean key="penalty_JLP5" value="false"/>
+		<boolean key="penalty_JLP2" value="false"/>
+		<boolean key="penalty_JLP3" value="false"/>
+		<int key="number_parcels" value="36"/>
+		<boolean key="penalty_JLP1" value="false"/>
+		<string key="concept:name" value="-18008611495527141"/>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="0;n/a"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="mail income"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="null"/>
+			<id key="identity:id" value="3AB5D7C9-F4E9-4868-897F-911579A65D10"/>
+			<date key="time:timestamp" value="2015-05-14T00:00:00.000+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="mail income"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="0;n/a"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="mail valid"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="null"/>
+			<id key="identity:id" value="A2ED75A8-05E4-4D3A-9CA7-635A14E22AF9"/>
+			<date key="time:timestamp" value="2015-05-15T00:00:00.000+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="mail valid"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="Document processing automaton"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="initialize"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="-18008611495527142"/>
+			<id key="identity:id" value="5F29273A-BEEE-42C3-A55E-F7E589B135B5"/>
+			<date key="time:timestamp" value="2015-11-06T11:31:50.210+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="initialize"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="begin editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-108080602654384788"/>
+			<id key="identity:id" value="0F162BC9-E420-4AB1-AFFF-B61F43396604"/>
+			<date key="time:timestamp" value="2015-11-10T17:11:51.910+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-108080602654381631"/>
+			<id key="identity:id" value="0FB8D84E-A42A-4000-9FB9-966485C4D676"/>
+			<date key="time:timestamp" value="2015-11-10T17:12:09.290+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="Processing automaton"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-18008606298897360"/>
+			<id key="identity:id" value="0A9C7893-5DC6-424C-BF0B-8DB48AC95CEF"/>
+			<date key="time:timestamp" value="2015-11-21T02:41:31.783+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="Processing automaton"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-18008605623677604"/>
+			<id key="identity:id" value="472F685D-281A-4530-8DF5-2DC0D8D06F00"/>
+			<date key="time:timestamp" value="2015-11-23T11:29:28.683+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-126094993279220594"/>
+			<id key="identity:id" value="3644BBF2-BBAC-481F-9D4D-F7E6F55FE906"/>
+			<date key="time:timestamp" value="2015-12-03T16:04:18.739+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="727350"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="finish editing"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-126094993279220301"/>
+			<id key="identity:id" value="F64BEA5A-2576-4162-B428-625B66F1D788"/>
+			<date key="time:timestamp" value="2015-12-03T16:04:21.176+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="520882"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="decide"/>
+			<string key="note" value="automatic"/>
+			<string key="eventid" value="-126094992610732395"/>
+			<id key="identity:id" value="BACDD933-53F3-428C-8B63-41C1E1B0252B"/>
+			<date key="time:timestamp" value="2015-12-05T13:58:52.655+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="decide"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="76f30e"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="revoke decision"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="-126094990801673380"/>
+			<id key="identity:id" value="FFA8843B-9F5D-4995-BAD6-75DE7FB091E1"/>
+			<date key="time:timestamp" value="2015-12-10T11:06:05.505+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="revoke decision"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="76f30e"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="-126094990801671752"/>
+			<id key="identity:id" value="0E205DCB-FE82-48AB-B343-73CDE0BC6F50"/>
+			<date key="time:timestamp" value="2015-12-10T11:06:34.499+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="76f30e"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="finish editing"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="-126094990801671474"/>
+			<id key="identity:id" value="4D6C9AD0-0E32-42E6-93F3-E83B1C9C3BA7"/>
+			<date key="time:timestamp" value="2015-12-10T11:08:07.416+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="2ca0ae"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="decide"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="-126094990801438350"/>
+			<id key="identity:id" value="2E5F5A2D-4D1F-4B4C-8FF0-56F7F48251FA"/>
+			<date key="time:timestamp" value="2015-12-10T14:35:49.116+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="decide"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-Z"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="begin payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-18008597671671663"/>
+			<id key="identity:id" value="89A70D86-3EEA-47C6-88A9-41E94A58EEAC"/>
+			<date key="time:timestamp" value="2015-12-16T11:53:59.888+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin payment"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-Z"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="abort payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-18008597414314904"/>
+			<id key="identity:id" value="2F37BB34-89FB-4718-9518-27AC5B7C19EB"/>
+			<date key="time:timestamp" value="2015-12-16T16:41:09.557+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="abort payment"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-Z"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="begin payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-18008596978654797"/>
+			<id key="identity:id" value="BDD4A392-044F-4CF1-A62B-75F72DD89949"/>
+			<date key="time:timestamp" value="2015-12-17T21:15:14.955+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin payment"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-Z"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="abort payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-18008596977149232"/>
+			<id key="identity:id" value="176E0C0E-E348-4BDF-9C7A-54D02235BC1D"/>
+			<date key="time:timestamp" value="2015-12-18T13:19:55.679+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="abort payment"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-Z"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="begin payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-18008596625449763"/>
+			<id key="identity:id" value="02DF9E82-4CC9-47A3-87F8-8D9D06CEEC8E"/>
+			<date key="time:timestamp" value="2015-12-18T21:46:40.641+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin payment"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-Z"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Application"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="finish payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-18008575555512553"/>
+			<id key="identity:id" value="EF8B3545-62FC-4E4C-8F24-3EE6582F4BD4"/>
+			<date key="time:timestamp" value="2016-02-18T08:07:06.499+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish payment"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="4af6fb"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Main"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="insert document"/>
+			<string key="note" value="change by department"/>
+			<string key="eventid" value="-72051613798839015"/>
+			<id key="identity:id" value="B5F032DB-0E8F-4F91-9AA3-0F55F8DBF2B6"/>
+			<date key="time:timestamp" value="2017-05-24T10:58:06.534+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="insert document"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="4af6fb"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Change"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="initialize"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="-72051613798839006"/>
+			<id key="identity:id" value="A4A99B43-7141-4A3D-A264-057DB9FEC27E"/>
+			<date key="time:timestamp" value="2017-05-24T10:58:06.550+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="initialize"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="4af6fb"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Change"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="begin editing"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="-72051613798838990"/>
+			<id key="identity:id" value="ACDFE615-EF6A-491B-8226-46731FA58371"/>
+			<date key="time:timestamp" value="2017-05-24T10:58:06.679+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="4af6fb"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Change"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="-72051613798837356"/>
+			<id key="identity:id" value="C1895089-D977-48F2-966D-47C80D9281D3"/>
+			<date key="time:timestamp" value="2017-05-24T10:58:16.855+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="023bb9"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Change"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="calculate"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="-144109201617721708"/>
+			<id key="identity:id" value="70128D0D-182D-4604-9AF2-98544B3A2364"/>
+			<date key="time:timestamp" value="2017-06-07T10:29:32.459+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="calculate"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="023bb9"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Change"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="finish editing"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="-144109201617721628"/>
+			<id key="identity:id" value="FEF60F86-477B-444D-88D9-75C3CD3514B2"/>
+			<date key="time:timestamp" value="2017-06-07T10:29:53.503+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish editing"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="f9fe07"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Change"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="decide"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="-144109201617716887"/>
+			<id key="identity:id" value="523A6892-5EB4-4102-AC85-3E4D68FFA0E5"/>
+			<date key="time:timestamp" value="2017-06-07T10:34:20.493+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="decide"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="023bb9"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Change"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="insert document"/>
+			<string key="note" value="notification for applicant"/>
+			<string key="eventid" value="-144109201617692120"/>
+			<id key="identity:id" value="A5B93C50-C1D9-4183-9BC9-D1B5C36230C0"/>
+			<date key="time:timestamp" value="2017-06-07T10:56:49.904+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="insert document"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="023bb9"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Main"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="save"/>
+			<string key="note" value="none"/>
+			<string key="eventid" value="-144109201617689512"/>
+			<id key="identity:id" value="B98D718D-E6CB-48E5-84C8-F65A7A64302F"/>
+			<date key="time:timestamp" value="2017-06-07T11:08:29.128+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="save"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-R"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Change"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="begin payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-126094802177604155"/>
+			<id key="identity:id" value="A5193489-CA42-4ECE-8790-9D830D4E1AF2"/>
+			<date key="time:timestamp" value="2017-06-07T19:00:29.334+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="begin payment"/>
+		</event>
+		<event>
+			<boolean key="success" value="true"/>
+			<string key="org:resource" value="DP-R"/>
+			<id key="docid_uuid" value="48E0C182-336A-48BF-A025-9620B16E3579"/>
+			<string key="doctype" value="Payment application"/>
+			<string key="subprocess" value="Change"/>
+			<string key="docid" value="-18008611495527141"/>
+			<string key="activity" value="finish payment"/>
+			<string key="note" value="automatic during payment"/>
+			<string key="eventid" value="-18008409632378158"/>
+			<id key="identity:id" value="C05A954B-056B-42E5-807B-96B1367DDAA5"/>
+			<date key="time:timestamp" value="2017-06-12T10:33:34.597+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="finish payment"/>
+		</event>
+	</trace>
+</log>
